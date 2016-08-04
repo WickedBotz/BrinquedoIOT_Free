@@ -1,5 +1,9 @@
-﻿# BrinquedoIOT
-Aplicação com joystick para controlar robos trekking(ou carrinhos)..
+﻿# BrinquedoIOT_Free
+
+CAB - Controle Arduino Bluetooth
+
+
+Aplicação com joystick para controlar robos trekking(ou carrinhos) por meio de conexão bluetooth, que são trocadas informações entre si..
 
 Possibilidade de conectar com qualquer modulo bluetooth serial que ja esteja pareado com o aparelho.
 

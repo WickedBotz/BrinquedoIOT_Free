@@ -1,4 +1,6 @@
-package com.example.appbrinquedoopeniot;
+package com.example.appbrinquedoopeniot_Free;
+
+
 
 import android.content.Intent;
 import android.net.Uri;

@@ -1,4 +1,5 @@
-package com.example.appbrinquedoopeniot;
+package com.example.appbrinquedoopeniot_Free;
+
 
 import android.app.ActionBar;
 import android.app.Activity;

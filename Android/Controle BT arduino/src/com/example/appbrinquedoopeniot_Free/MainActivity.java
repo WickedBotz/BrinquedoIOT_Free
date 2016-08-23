@@ -1,4 +1,6 @@
-package com.example.appbrinquedoopeniot;
+package com.example.appbrinquedoopeniot_Free;
+
+
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
@@ -58,7 +60,6 @@ public class MainActivity extends FragmentActivity {
 	// BluetoothAdapter é comando de entrada padrão paras todads interações com
 	private BluetoothAdapter bluetoothPadrao = null;
 
-	// private static String address = "20:13:06:19:08:29";
 
 	/**
 	 * Criação da tela
@@ -85,24 +86,6 @@ public class MainActivity extends FragmentActivity {
 		resgatarValoresBotoes();
 		referenciarElementosTela();
 
-		// btn1.setOnTouchListener(new View.OnTouchListener() {
-		//
-		// @Override
-		// public boolean onTouch(View view, final MotionEvent motionEvent) {
-		//
-		// if (btt != null) {
-		// Message msg = Message.obtain();
-		// msg.obj = x;
-		// writeHandler.sendMessage(msg);
-		// } else {
-		// Toast.makeText(getApplicationContext(), "Bluetooth nao conectado",
-		// Toast.LENGTH_LONG).show();
-		// }
-		//
-		// return false;
-		// }
-		// });
-
 	}
 
 	public void referenciarElementosTela() {
@@ -127,8 +110,10 @@ public class MainActivity extends FragmentActivity {
 		btn6 = (Button) findViewById(R.id.bt_c);
 	}
 
+	//SharedPreferences grava dados nos arquivos locais da aplicação,
+	//aonde que pode ser acessivel em qualquer tela.
 	public void resgatarValoresBotoes() {
-		SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+		SharedPreferences settings = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
 		frente = settings.getString("frente", "");
 		direita = settings.getString("direita", "");
 		esquerda = settings.getString("esquerda", "");

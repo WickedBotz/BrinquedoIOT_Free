@@ -1,4 +1,4 @@
-package com.example.appbrinquedoopeniot;
+package com.example.appbrinquedoopeniot_Free;
 
 import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothAdapter;
@@ -78,6 +78,8 @@ public class BluetoothThread extends Thread {
 			}
 		};
 	}
+	
+	
 
 	/**
 	 * Devolve o manipulador(Handler) de escrita para a conexão. As mensagens
@@ -236,7 +238,7 @@ public class BluetoothThread extends Thread {
 	 * Entry point when thread.start() is called.
 	 */
 	public void run() {
-
+		
 		// Attempt to connect and exit the thread if it failed
 		try {
 			connect();

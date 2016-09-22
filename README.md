@@ -9,9 +9,9 @@ Possibilidade de conectar com qualquer modulo bluetooth serial que ja esteja par
 
 ## Instalação do ambiente de trabalho ##
 
-Para desenvolver a aplicação, foi usado o ambiente de trabalho do eclipse usando ADT-plugin.
+Para desenvolver a aplicação, foi usado o ambiente de trabalho do eclipse usando ADT-plugin outra alternativa tem tambem a <a href="https://github.com/WickedBotz/BrinquedoIOT_Free-A">Versão AndroidStudio</a> que esta sendo continuada, ja que não existe mais suporte para o ADT-plugin para o eclipse.
 
-<a href="http://www.programarandroid.com.br/2014/11/como-instalar-o-eclipse-ide-e.html">Link para instalação</a>
+<a href="http://www.programarandroid.com.br/2014/11/como-instalar-o-eclipse-ide-e.html">Link para instalação do ADT-plugin (ECLIPSE)</a>
 
 ## Instruções para importar projeto e demais dependencias##
 
